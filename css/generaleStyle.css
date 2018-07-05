@@ -1,0 +1,55 @@
+/* import de nouvelles polices( font) */
+@font-face{
+    font-family: 'Comfortaa-Ragular';
+    src:url(./../fonts/Comforta-Regular.otf) format('truetype');
+    font-weight: normal;
+}
+
+@font-face{
+    font-family: 'Magettas';
+    src:url(./../fonts/Magettas.otf) format('truetype');
+    src:url(./../fonts/Magettas.woff) format('woff');
+    font-weight: normal;
+}
+
+/* marges externes */
+.mt-4{
+    margin-top:20px;
+}
+.mb-4{
+    margin-bottom:20px;
+}
+.ml-4{
+    margin-left:20px;
+}
+.mr-4{
+    margin-right:20px;
+}
+
+/* marges internes */
+.pt-4{
+    padding-top:20px;
+}
+.pb-4{
+    padding-bottom:20px;
+}
+.pl-4{
+    padding-left:20px;
+}
+.pr-4{
+    padding-right:20px;
+}
+
+/* definition des polices dans l'ensemble de la page */
+h1,h2,h3,h4,h5,h6{
+    font-family: Magettas , 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* gris du footer */
+.gray{
+    background-color: #f8f8f8;
+}
